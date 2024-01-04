@@ -38,7 +38,7 @@ namespace PeronalTracking
         List<Department> departmentlist = new List<Department>();
         private void frmPosition_Load(object sender, EventArgs e)
         {
-            departmentlist = Department.GetDepartments();
+            
             cmbDepartment.DataSource = departmentlist;
             cmbDepartment.DisplayMember = "Departemnt Name";
             cmbDepartment.ValueMember = "ID";
